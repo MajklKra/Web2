@@ -112,30 +112,38 @@ main {
   }
 }
 
-#c3{
+#c3 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: justify;
 }
 
-#c4{
+#c4 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: justify;
 }
 
-#c5{
+#c5 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: justify;
 }
 
-#c6{
+#c6 {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: justify;
+}
+
+#n3 {
+  padding-bottom: 1rem;
+}
+
+.card-body{
+  text-align: center;
 }

@@ -20304,3 +20304,11 @@ main .card {
   justify-content: center;
   text-align: justify;
 }
+
+#n3 {
+  padding-bottom: 1rem;
+}
+
+.card-body {
+  text-align: center;
+}
