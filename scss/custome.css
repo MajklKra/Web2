@@ -20205,12 +20205,10 @@ body {
 }
 
 header {
-  position: relative;
-  min-height: 100vh;
-  background-image: url("../images/Hilite.jpg");
-  background-repeat: no-repeat;
+  /* background-image: url("../images/Hilite.jpg"); */
+  /*  background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: cover; */
 }
 header .overlay {
   position: absolute;
@@ -20257,6 +20255,7 @@ main .card {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: justify;
 }
 
 #im1 {
@@ -20267,4 +20266,14 @@ main .card {
   display: flex;
   align-items: center;
   justify-content: left;
+}
+
+#n1 {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  #n1 {
+    padding-bottom: 0rem;
+  }
 }
